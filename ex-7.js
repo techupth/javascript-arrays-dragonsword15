@@ -43,6 +43,10 @@ let orders = [
 
 // Start coding here
 let isArray;
-let creditCardTypeOfBlindermann;
-let productQuantityOfJoannet;
-let totalPurchaseOfDary;
+let creditCardTypeOfBlindermann = orders[2].creditCardType;
+let productQuantityOfJoannet = orders[3].productQuantity;
+let totalPurchaseOfDary = orders[1].productprice;
+orders[2].creditCardType = "visa"
+console.log(totalPurchaseOfDary)
+orders.pop[0];
+console.log(orders)
